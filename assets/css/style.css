@@ -1,0 +1,122 @@
+/* -----------HTML----------- */
+html{
+    scroll-behavior: auto !important;
+}
+
+/* -----------BODY----------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* -----------NAVBAR----------- */
+.navbar {
+    background-color: #000;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Ruslan Display', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* ----------HERO-SECTION---------- */
+
+#Hero-Section{
+    background-image: url("../img/Gigo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.linea{
+    background-color: #fff;
+}
+
+/* ----------SOBRE MI---------- */
+#Sobre-Mi{
+    color: #fff;
+    font-family: 'Ruslan Display', cursive;
+    line-height: 3;
+}
+
+.sobreMi{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------EXPERIENCIA---------- */
+
+.experiencia{
+    font-family: 'Ruslan Display', cursive;
+    font-size: 52px;
+}
+
+#Experiencia i{
+    color: #ffffff80;
+}
+
+.experienciaH{
+    font-weight: bolder;
+}
+
+.año{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* ----------MIS ÚLTIMOS TRABAJOS---------- */
+.trabajo{
+    font-family: 'Ruslan Display', cursive;
+    font-size: 52px;
+}
+
+.card-body{
+    text-align: center;
+    background-color: #000;
+    height: 300px;
+} 
+
+.card-img-top{
+    height: 164px !important;
+
+}
+
+li{
+    text-align: left;
+}
+
+/* ----------FOOTER---------- */
+
+#Contacto{
+    font-family: 'Ruslan Display', cursive; 
+   margin-top: 20%;
+}
+
+#Contacto a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* -----------ZOOM-------- */
+
+img.zoom {
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(3);
+    z-index: 2;
+}
